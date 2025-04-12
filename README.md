@@ -27,14 +27,36 @@ Architecture:
 
 ## 🧪 Training Results
 
+### Before 
+
 | Epoch | Loss     | Accuracy |
 |-------|----------|----------|
 | 1     | 0.6010   | 65.6%    |
 | 5     | 0.0714   | 97.5%    |
 | 10    | 0.0283   | **99.0%**|
 
+### After Data Augmentation & Dropout layer
+
+| Epoch | Loss     | Accuracy |
+|-------|----------|----------|
+| 1     | 0.64040   | 61.6%    |
+| 5     | 0.4582  | 78.5%    |
+| 10    | 0.4037  | **82.3%**|
+
+
+
 ## 🧪 Training Results
+
+### Before
+
 ```
 Average Validation Loss: 1.1613 | Average Accuracy: 0.7830
 ```
+
+### After Data Augmentation & Dropout layer
+
+```
+Average Validation Loss: 0.4150 | Average Accuracy: 0.8190
+```
+
 ---
